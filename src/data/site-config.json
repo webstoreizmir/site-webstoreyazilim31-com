@@ -1,120 +1,114 @@
 {
-  "is_paid": false,
   "metadata": {
-    "title": "Modern Ajans Pro",
-    "description": "Profesyonel dijital çözümler."
+    "title": "Webstore | Kurumsal Web Tasarım ve Yazılım Çözümleri",
+    "description": "İzmir merkezli Webstore, küçük işletmeler ve girişimciler için kalite odaklı, modern ve profesyonel web tasarım hizmetleri sunar. Dijital varlığınızı güçlendirin."
   },
   "theme": {
     "colors": {
-      "primary": "#2563eb",
-      "secondary": "#1e40af",
-      "background": "#0f172a",
-      "text": "#f8fafc"
+      "primary": "#0D253F",
+      "secondary": "#5C6B73",
+      "background": "#FFFFFF",
+      "text": "#212529"
     },
     "fonts": {
-      "heading": "Montserrat",
+      "heading": "Inter",
       "body": "Inter"
     },
     "style": "modern"
   },
   "images": {
-    "hero_keyword": "modern office architecture glass",
-    "about_keyword": "team meeting creative",
+    "hero_keyword": "ui ux designer wireframing application on screen",
+    "about_keyword": "software development team collaborating on code",
     "feature_keywords": [
-      "code",
-      "design",
-      "rocket"
+      "responsive web design on multiple devices",
+      "data visualization dashboard user interface",
+      "front end developer coding javascript"
     ]
   },
   "content": {
     "hero": {
-      "headline": "Geleceği Şekillendiriyoruz",
-      "subheadline": "İşletmeniz için en modern teknolojileri kullanarak dijital dünyada fark yaratın.",
-      "ctaButtonText": "Hemen Başlayın"
+      "headline": "İşletmenizi Dijitale Taşıyan Kurumsal Web Çözümleri",
+      "subheadline": "Kalite ve profesyonellik odaklı web tasarım hizmetlerimizle markanızı güçlendiriyor, hedef kitlenize ulaştırıyoruz.",
+      "ctaButtonText": "Teklif Al"
     },
     "about": {
-      "title": "Biz Kimiz?",
-      "description": "2010 yılından beri sektörde öncü çözümler üretiyoruz. Müşteri memnuniyeti odaklı yaklaşımımızla markanızı zirveye taşıyoruz.",
+      "title": "Kalite ve Deneyimin Buluştuğu Adres: Webstore",
+      "description": "Webstore, küçük işletmelerin ve girişimcilerin dijital dünyada başarılı olması için yüksek kaliteli, kullanıcı odaklı ve kurumsal kimliklerine uygun web siteleri tasarlar. Deneyimli ekibimizle projenizin her aşamasında yanınızdayız.",
       "stats": [
         {
           "label": "Tamamlanan Proje",
-          "value": "500+"
+          "value": "70+"
         },
         {
-          "label": "Mutlu Müşteri",
-          "value": "150+"
-        },
-        {
-          "label": "Yıllık Deneyim",
-          "value": "12"
+          "label": "Müşteri Memnuniyeti",
+          "value": "%98"
         }
       ]
     },
     "services": [
       {
-        "title": "Web Tasarım",
-        "description": "Mobil uyumlu, hızlı ve modern web siteleri.",
-        "icon": "💻"
+        "title": "Kurumsal Web Tasarım",
+        "description": "Marka kimliğinizi yansıtan, modern ve profesyonel web siteleri tasarlayarak dijital vitrininizi oluşturuyoruz.",
+        "icon": "💼"
       },
       {
-        "title": "SEO Optimizasyonu",
-        "description": "Google'da ilk sıralarda yerinizi alın.",
+        "title": "UI/UX Tasarımı",
+        "description": "Kullanıcı deneyimini ön planda tutan, estetik ve işlevsel arayüzler geliştirerek ziyaretçilerinizi müşteriye dönüştürüyoruz.",
+        "icon": "✨"
+      },
+      {
+        "title": "Web Geliştirme ve Destek",
+        "description": "Projenizi hayata geçiriyor, lansman sonrası teknik destek ve bakım hizmetleriyle sitenizin performansını koruyoruz.",
         "icon": "🚀"
-      },
-      {
-        "title": "Sosyal Medya",
-        "description": "Markanızın sesini dünyaya duyurun.",
-        "icon": "📱"
-      }
-    ],
-    "testimonials": [
-      {
-        "name": "Ahmet Yılmaz",
-        "role": "CEO, Tech Corp",
-        "comment": "Harika bir ekip, işlerini zamanında ve mükemmel yapıyorlar."
-      },
-      {
-        "name": "Ayşe Demir",
-        "role": "Pazarlama Müdürü",
-        "comment": "Satışlarımız %200 arttı. Kesinlikle tavsiye ediyorum."
       }
     ],
     "process": [
       {
         "step": "01",
-        "title": "Keşif ve Analiz",
-        "description": "İhtiyaçlarınızı dinliyor, hedeflerinizi belirliyoruz."
+        "title": "Analiz ve Strateji",
+        "description": "İhtiyaçlarınızı ve hedeflerinizi anlamak için sizinle bir araya geliyor, projenizin yol haritasını çiziyoruz."
       },
       {
         "step": "02",
-        "title": "Tasarım ve Planlama",
-        "description": "Modern ve kullanıcı dostu tasarımlar oluşturuyoruz."
+        "title": "Tasarım ve Geliştirme",
+        "description": "Onayladığınız strateji doğrultusunda, modern ve kullanıcı odaklı web sitenizi tasarlayıp kodluyoruz."
       },
       {
         "step": "03",
-        "title": "Geliştirme ve Teslimat",
-        "description": "Kodlama ve testleri tamamlayıp projenizi teslim ediyoruz."
+        "title": "Test ve Yayına Alma",
+        "description": "Sitenizi tüm cihazlarda test ediyor, son onayınızla birlikte yayına alıyor ve size teslim ediyoruz."
       }
     ],
     "faq": [
       {
-        "question": "Proje teslim süresi ne kadar?",
-        "answer": "Projenin kapsamına göre 2-6 hafta arasında değişmektedir."
+        "question": "Bir web sitesi projesi ne kadar sürer?",
+        "answer": "Projenin kapsamına bağlı olarak süreç genellikle 4 ila 8 hafta arasında değişmektedir. Detaylı zaman planını proje başlangıcında sizinle paylaşıyoruz."
       },
       {
-        "question": "Ödeme koşulları nelerdir?",
-        "answer": "%50 peşin, %50 teslimat sonrası ödeme planı sunuyoruz."
+        "question": "Proje başlangıcı için ne gibi bilgilere ihtiyacınız var?",
+        "answer": "Başlamak için şirket logonuz, kurumsal kimlik dokümanlarınız, site içeriği (metinler, görseller) ve hedef kitleniz hakkındaki bilgilere ihtiyacımız var."
       },
       {
-        "question": "Destek hizmeti veriyor musunuz?",
-        "answer": "Evet, teslim sonrası 6 ay ücretsiz teknik destek sağlıyoruz."
+        "question": "Web sitesi yayına alındıktan sonra destek sağlıyor musunuz?",
+        "answer": "Evet, isteğe bağlı olarak aylık veya yıllık bakım ve teknik destek paketleri sunuyoruz. Sitenizin güncel ve güvende kalmasını sağlıyoruz."
+      },
+      {
+        "question": "Web sitesi yaptırmanın maliyeti nedir?",
+        "answer": "Web sitesi fiyatları, projenin özelliklerine göre değişiklik gösterir. İhtiyaçlarınıza özel bir teklif almak için bizimle iletişime geçebilirsiniz."
+      }
+    ],
+    "testimonials": [
+      {
+        "name": "Ayşe Kaya",
+        "role": "Kurucu, Kaya Danışmanlık",
+        "comment": "Webstore ekibi, vizyonumuzu tam olarak anladı ve beklentilerimizin ötesinde bir web sitesi ortaya çıkardı. Süreç boyunca iletişimleri ve kaliteleri harikaydı."
       }
     ],
     "contact": {
-      "address": "Levent, Büyükdere Cd. No:1, İstanbul",
-      "phone": "+90 555 123 45 67",
-      "email": "info@modernajans.com",
-      "map_query": "Istanbul"
+      "address": "İzmir, Türkiye",
+      "phone": "+905541103132",
+      "email": "info@izmirwebstore.com",
+      "map_query": "Izmir"
     }
   }
 }
