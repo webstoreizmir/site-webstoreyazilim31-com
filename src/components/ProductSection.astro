@@ -1,0 +1,53 @@
+---
+interface Product {
+  name: string;
+  price: string;
+  image: string;
+  shopierLink: string;
+}
+
+interface Props {
+  products: Product[];
+}
+
+const { products } = Astro.props;
+---
+
+<section id="products" class="py-32 bg-slate-50 relative overflow-hidden">
+  <div class="container-custom relative z-10">
+    <div class="max-w-2xl mb-16">
+      <span class="text-[rgb(var(--color-primary))] font-bold tracking-wider uppercase text-sm mb-2 block">Koleksiyon</span>
+      <h2 class="text-3xl md:text-5xl font-heading font-bold text-slate-900 mb-6">
+        Özel Parçalar
+      </h2>
+      <p class="text-slate-600 text-lg">Zarafet ve konforun buluştuğu size özel tasarımlarımızı keşfedin.</p>
+    </div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      {products && products.map((product) => (
+        <div class="group bg-white p-8 rounded-[2rem] hover:shadow-2xl hover:shadow-[rgb(var(--color-primary))]/5 transition-all duration-300 border border-slate-100 hover:-translate-y-2 relative overflow-hidden">
+            <div class="absolute top-0 right-0 w-32 h-32 bg-[rgb(var(--color-primary))] opacity-5 rounded-bl-full transform translate-x-8 -translate-y-8 group-hover:scale-150 transition-transform duration-500"></div>
+
+            <div class="w-24 h-24 rounded-3xl bg-[rgb(var(--color-primary))]/10 flex items-center justify-center mb-8 overflow-hidden group-hover:bg-[rgb(var(--color-primary))] transition-all duration-300 shadow-sm">
+                <img 
+                  src={product.image || `https://image.pollinations.ai/prompt/${encodeURIComponent(product.name + " product photography luxury")}`} 
+                  alt={product.name} 
+                  class="w-full h-full object-cover group-hover:opacity-20 transition-opacity"
+                />
+            </div>
+
+            <h3 class="text-2xl font-heading font-bold mb-4 text-slate-900">
+                {product.name}
+            </h3>
+            <p class="text-slate-600 leading-relaxed mb-6 font-medium">
+                {product.price}
+            </p>
+            
+            <a href={product.shopierLink} target="_blank" class="inline-flex items-center text-[rgb(var(--color-primary))] font-bold text-sm group-hover:translate-x-2 transition-transform">
+                Daha Fazla Bilgi <span class="ml-2">→</span>
+            </a>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
